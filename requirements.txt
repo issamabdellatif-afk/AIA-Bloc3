@@ -1,0 +1,10 @@
+confluent-kafka
+mlflow==3.5.0
+anyio<4.15
+scikit-learn==1.6.1
+pandas>=2.0
+psycopg2-binary==2.9.10
+requests>=2.31.0,<3
+boto3
+sqlalchemy<2.1
+python-dotenv

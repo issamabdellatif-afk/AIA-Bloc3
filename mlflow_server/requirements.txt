@@ -1,0 +1,5 @@
+mlflow==3.5.0
+anyio<4.15
+sqlalchemy<2.1
+psycopg2-binary==2.9.10
+boto3

@@ -1,0 +1,15 @@
+# Lancement de kafka et mlflow
+services:
+  kafka:
+    image: apache/kafka:4.0.0
+    container_name: kafka
+    ports:
+      - "9092:9092"
+
+  mlflow:
+    build: ./mlflow_server
+    container_name: mlflow
+    env_file:
+      - ./mlflow_server/.env
+    ports:
+      - "4000:4000"
